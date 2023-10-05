@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:ital,wght@0,700;1,500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display',
+        sans-serif;
+    min-height: 98vh;
+    background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+	
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-content {
+    padding: 7%;
+    text-align: center;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text-content p.subtitle {
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+
+.payment-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-box-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.payment-box-left div {
+    margin-left: 20px;
+}
+
+.payment-box-left div h5 {
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.payment-box-left div p {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.payment-box a {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    transition: color .3s ease;
+}
+
+.payment-box a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+a.proceed {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+    transition: background-color .3s ease;
+}
+
+a.proceed:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+a.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    transition: color .3s ease;
+}
+
+a.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
